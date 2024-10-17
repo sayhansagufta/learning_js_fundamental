@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Penggunaan Operator</title>
+  </head>
+  <body>
+    <script>
+      var A = 10; // var a value = 10
+      var B = 4; // var b value = 4
+      var C = A % B; // operator aritmatika modulus
+      var D = A * B; // operator aritmkatik perkailian
+      document.write("10 % 4 = " + C + "<br>"); // menampilkan hasil operand aritmatika modulus
+      document.write("10 * 4 = " + D + "<br>"); // menampilkan hasil operand aritmatika perkalian
+
+      A++; // operator aritmatika increment menambah angka 1 secara otomatis
+      document.write("Nilai A Sekarang: " + A + "<br>"); // menampilkan hasil 11
+
+      var E = A > B; // operator perbandingan menghasilkan nilai true and false
+      document.write("10 > 4 hasilnya : " + E + "<br>"); // output bernilai true karena 10 lebih besar dari 4
+
+      var F = false; // tipe data boolean
+      var G = false; // tipe data boolean
+      var H = F || G; // operator logika
+      document.write("fakse && true hasilnya: " + H + "<br>"); // menghasilkan nilai true dikarenakan kedua operand bernilai true (Logika AND)
+      // misal A = true dan B = false maka: (A && B) menghasilkan false
+
+      A += B; // operator assignment
+      document.write(" A += B hasilnya: " + A + "<br>");
+
+      var hasil = A > B ? "A Lebih besar dari B" : "A Lebih kecil dari B";
+      document.write(hasil);
+    </script>
+  </body>
+</html>
