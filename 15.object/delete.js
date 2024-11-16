@@ -13,12 +13,9 @@ const user = {
     },
     nickname: ["to", "hokage", "yondaime"],
   },
-  greeting: () => {
-    return "hello!"; // arrow function
-  },
-  introduction: function() {
-    // Hello my Name is Naruto
-    this.username;
-    return `Hello my Name is ${this.username}`; // function
-  }
 };
+
+delete user.address;
+delete user.age;
+
+console.log(user);
